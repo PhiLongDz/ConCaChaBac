@@ -1,0 +1,1 @@
+pkg update && pkg upgrade -y && echo "y" | termux-setup-storage && pkg install python tsu libexpat openssl -y && pip install requests aiohttp GPUtil pycryptodome psutil colorama setuptools crypto prettytable
